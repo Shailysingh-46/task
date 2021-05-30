@@ -1,0 +1,41 @@
+<!--<sly data-sly-use.model="com.aem.training.site.core.models.MyFormModel" > -->
+
+<form action="CityServlet" data-nodepath="${currentNode.Path}">
+
+    <label for="fname">Enter your name:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+    <label for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="address">Address:</label><br>
+    <input type="text" id="address" name="address" size="60"  minlength="100" required><br><br>
+
+    <label for="state">Choose a state:</label>
+
+    <select name="state" id="state" onchange="myFunction()">
+        <option value="1">haryana</option>
+        <option value="2">uttar pradesh</option>
+        <option value="3">madhya pradesh</option>
+        <option value="4">bihar</option>
+    </select><br><br>
+    <label for="city">Choose a city:</label>
+    <select name="city" id="city" onchange="myFunction1()">
+        <option value="">select</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+    </select><br><br>
+
+    <input type="submit" value="Submit" >
+
+</form>
+
+
+<!-- <h1 data-sly-repeat="${model.cityList}">${item.title}</h1>
+
+</sly>-->
+
+<!--<sly data-sly-use.model="com.aem.training.site.core.models.MyFormModel" >
+
+    <h1 data-sly-repeat="${model.cityList}">${item.title}</h1>
+
+</sly>-->

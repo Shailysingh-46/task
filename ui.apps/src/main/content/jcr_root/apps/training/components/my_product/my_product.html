@@ -1,0 +1,7 @@
+<sly data-sly-use.model="com.aem.training.site.core.models.NewProductModel" >
+    <div data-sly-list="${model.bikeList}">
+        <h1>${item.title}</h1>
+        <p>${item.description}</p>
+        <p>Review : ${item.reviews}</p>
+    </div>
+</sly>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aem-training.iml" filepath="$PROJECT_DIR$/aem-training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/aem-training.all.iml" filepath="$PROJECT_DIR$/all/aem-training.all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/aem-training.core.iml" filepath="$PROJECT_DIR$/core/aem-training.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dispatcher/aem-training.dispatcher.ams.iml" filepath="$PROJECT_DIR$/dispatcher/aem-training.dispatcher.ams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/aem-training.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/aem-training.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps.structure/aem-training.ui.apps.structure.iml" filepath="$PROJECT_DIR$/ui.apps.structure/aem-training.ui.apps.structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.config/aem-training.ui.config.iml" filepath="$PROJECT_DIR$/ui.config/aem-training.ui.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/aem-training.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/aem-training.ui.content.iml" />
+    </modules>
+  </component>
+</project>

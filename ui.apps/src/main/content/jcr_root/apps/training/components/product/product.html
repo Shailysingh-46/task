@@ -1,0 +1,36 @@
+
+<sly data-sly-use.model="com.aem.training.site.core.models.HeroModel" >
+    <div class="slides" data-sly-list="${model.heroSlides}">
+        <p>${item.title}</p>
+        <img src="${item.image}">
+        <a href="${item.link}"></a>
+    </div>
+</sly>
+
+<div class="card1">
+    <img src="/content/dam/assignment-images/food1.jpg" alt="manchurian rice" style="width:100%">
+    <h1>Chinese</h1>
+    <p class="price">$19.99</p>
+    <p>Veg Manchurian Rice</p>
+</div>
+<div class="card2">
+    <img src="/content/dam/assignment-images/food2.jpg" alt="Pasta" style="width:100%">
+    <h1>Chinese</h1>
+    <p class="price">$29.14</p>
+    <p>Penne Pasta</p>
+</div>
+<!--<div class="card3">
+  <img src="/content/dam/assignment-images/kurta.jpeg" alt="Denim Jeans" style="width:100%">
+  <h1>Straight Kurta</h1>
+  <p class="price">$15.79</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>Add to Cart</button></p>
+</div>-->
+
+<div class="card3">
+    <a href="#"><img src="${properties.image}" alt="" style="width:100%"></a>
+    <h1>${item.title}</h1>
+    <p class="price">${item.price}</p>
+    <p>${item.title}</p>
+</div>
+

@@ -1,0 +1,22 @@
+
+
+
+
+<!--<div id="page" >
+	<div id="header" style="background-color=${item.list}">-->
+<sly data-sly-use.model="com.aem.training.site.core.models.HeroModel" >
+
+
+
+</sly>
+
+<div id="header">
+    <div id="logo">
+        <a href="#"><img src="${properties.image}" alt=""></a>
+    </div>
+    <div id="menu">
+        <ul data-sly-list="${model.heroSlides}">
+            <li><a href="${item.link}">${item.title}</a></li>
+
+        </ul>
+    </div>

@@ -1,0 +1,8 @@
+<h1>Hero component</h1>
+<sly data-sly-use.model="com.aem.training.site.core.models.HeroModel" >
+<div class="slides" data-sly-list="${model.heroSlides}">
+    <p>${item.title}</p>
+    <img src="${item.image}">
+    <a href="${item.link}">CTA</a>
+</div>
+</sly>

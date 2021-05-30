@@ -1,0 +1,23 @@
+<!--<sly data-sly-use.model="com.aem.training.site.core.models.MyHeaderModel" >
+    <div id="header">
+    <div id="logo"><a href="#"><img src="{properties.logo}" alt=""></a></div>
+    <div id="menu">
+        <ul data-sly-list="${model.myHeaderNav}">
+            <li><a href="${item.link}">${item.title}</a></li>
+        </ul>
+    </div>
+    </div>
+</sly>-->
+
+<sly data-sly-use.model="com.aem.training.site.core.models.MyHeaderModel" >
+    <div id="header" style="background-color:${properties.linkColor @ context='styleToken'}">
+        <div id="logo">
+            <a href="#"><img src="${properties.logo}" alt=""></a>
+        </div>
+        <div id="menu">
+            <ul data-sly-list="${model.myHeaderNav}">
+                <li><a href="${item.link}">${item.title}</a></li>
+            </ul>
+        </div>
+    </div>
+</sly>

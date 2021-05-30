@@ -1,0 +1,19 @@
+<sly data-sly-use.model="com.aem.training.site.core.models.MyHeroModel" >
+    <div class="slides" data-sly-list="${model.myHeroSlides}">
+
+    </div>
+</sly>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<div class="footer-basic">
+    <footer>
+        <div class="social"><a href="${item.link}"><i class="icon ion-social-instagram"></i></a><a href="${item.link}"><i class="icon ion-social-snapchat"></i></a><a href="${item.link}"><i class="icon ion-social-twitter"></i></a><a href="${item.link}"><i class="icon ion-social-facebook"></i></a></div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:white">
+        <ul class="list-inline" data-sly-list="${model.myHeroSlides}">
+            <li class="list-inline-item"><a href="${item.link}">${item.title}</a></li>
+
+        </ul>
+        <p style="text-align:center">${properties.copyright}</p>
+    </footer>
+</div>

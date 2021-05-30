@@ -1,0 +1,50 @@
+
+
+
+<div class="container">
+
+    <form id="form" class="form">
+        <div class="form-control">
+            <label for="username">Name</label>
+            <input type="text" placeholder="shaily singh" id="username" />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <br><br>
+        <div class="form-control">
+            <label for="username">Email</label>
+            <input type="email" placeholder="a@gmail.com" id="email" required/>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <br><br>
+        <div class="form-control">
+            <label for="address">Address</label>
+            <input type="Address" placeholder="asdfghj" id="address" maxlength="100" required/>
+
+            <small>Error message</small>
+        </div>
+
+
+        <br><br><br>
+        &nbsp;&nbsp;&nbsp;
+        Select Country: <select name="state" id="countySel" size="1">
+        <option value="" selected="selected">Select Country</option>
+    </select>
+        <br>
+        <br>
+        Select State: <select name="countrya" id="stateSel" size="1">
+        <option value="" selected="selected">Please select Country first</option>
+    </select>
+        <br>
+        <br>
+        Select District: <select name="district" id="districtSel" size="1">
+        <option value="" selected="selected">Please select State first</option>
+    </select><br>
+
+        <button>Submit</button>
+    </form>
+</div>
+
